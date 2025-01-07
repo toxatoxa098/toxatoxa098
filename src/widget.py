@@ -11,7 +11,7 @@ def mask_account_card(account_card: Union[str]) -> Union[str]:
     if account_type.lower().startswith("счет"):
         masked_number = f"**{number[-4:]}"
     else:
-        masked_number = (f"{number[:4]} {number[4:6]}** **** {number[-4:]}")
+        masked_number = f"{number[:4]} {number[4:6]}** **** {number[-4:]}"
 
     return f"{account_type} {masked_number}"
 
