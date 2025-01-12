@@ -1,7 +1,7 @@
 from typing import Any, Dict, List
 
 
-def filter_by_state(list_: List[Dict[str, Any]], default_parameter: str="EXECUTED") -> list:
+def filter_by_state(list_: List[Dict[str, Any]], default_parameter: str = "EXECUTED") -> list:
     """Функция, принимает список словарей и опционально значение для
     ключа state(по умолчанию 'EXECUTED'). Функция возвращает новый
     список словарей, содержащий только те словари, у которых ключ state
@@ -14,7 +14,7 @@ def filter_by_state(list_: List[Dict[str, Any]], default_parameter: str="EXECUTE
     return new_list
 
 
-def sort_by_date(list_: List[Dict[str, Any]], default_parameter: bool=True) -> list:
+def sort_by_date(list_: List[Dict[str, Any]], default_parameter: bool = True) -> list:
     """Функция, принимает список словарей и необязательный
     параметр, задающий порядок сортировки (по умолчанию — убывание) и возвращает
      новый список, отсортированный по дате (date)."""
