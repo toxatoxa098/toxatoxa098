@@ -1,0 +1,9 @@
+my_function ok
+my_function ok
+my_function ok
+my_function ok
+my_function ok
+my_function ok
+error: TypeError. Inputs: (1, 'j'), {}
+error: TypeError. Inputs: (1, 'j'), {}
+my_function ok
