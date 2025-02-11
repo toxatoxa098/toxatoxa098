@@ -166,7 +166,3 @@ def range_start():
 @pytest.fixture
 def range_end():
     return 5
-
-@pytest.fixture
-def test_file(tmp_path):
-    return tmp_path / "test_log.txt"
