@@ -36,6 +36,3 @@ def excel_format(file_excel: str) -> Union[List[Dict[str, Union[str, int, float]
 path = r"C:\Users\Пользователь\Downloads\transactions_excel.xlsx"
 result = excel_format(path)
 print(result)
-
-
-    # Здесь можно добавить дополнительные проверки структуры данных
