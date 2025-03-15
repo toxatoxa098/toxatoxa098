@@ -4,7 +4,7 @@ import tempfile
 
 import pytest
 
-from src.utils import operations  # Замените 'your_module' на имя вашего модуля
+from src.utils import operations
 
 
 @pytest.fixture
